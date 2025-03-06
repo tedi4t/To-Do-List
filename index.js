@@ -17,9 +17,6 @@ const requestHandler = (req, res) => {
     // Set headers for the response
     res.setHeader('Content-Type', 'application/json');
 
-
-
-    
     // Route for tasks collection
     if (parsedUrl.pathname === '/tasks') {
         if (method === 'GET') {
