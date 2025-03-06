@@ -9,6 +9,9 @@ let tasks = [
     { id: 2, task: 'Prepare dinner', completed: false },
 ];
 
+
+
+
 // Function to handle incoming requests
 const requestHandler = (req, res) => {
     const parsedUrl = url.parse(req.url, true);
